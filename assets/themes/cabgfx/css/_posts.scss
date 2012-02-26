@@ -1,0 +1,35 @@
+.posts, .single-post .content {
+  &:after {
+    content: '\221E';
+    display: block;
+    color: $lightColor;
+    font-size: 2em;
+    text-align: center;
+  }
+}
+
+.single-post {
+  position: relative;
+
+  .content {
+    font-size: 1.1em;
+    line-height: 1.5em;
+  }
+
+  @media (max-width: 767px) {
+    time:after {content: ' \2014 ';}
+  }
+
+  @media (min-width: 768px) {
+    padding: 0 15%;
+  
+    aside {
+      font-size: .9em;
+      color: $textColorLight;
+
+      .meta {position: absolute; top: .4em;}
+      time {left: 0; padding-right: 1em;}
+      span {right: 0; padding-left: 1em;}
+    }
+  }
+}

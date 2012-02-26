@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.author.name }}</title>
+    {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+    <meta name="author" content="{{ site.author.name }}">
+    <meta name="viewport" content="width=device-width">
+
+    <!--[if lt IE 9]>
+  	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href='http://fonts.googleapis.com/css?family=Lato:900|Quattrocento+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <!-- <script src="//use.typekit.com/cfv8eux.js"></script><script>try{Typekit.load();}catch(e){}</script> -->
+
+    <link href="{{ ASSET_PATH }}/css/base.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- Le fav and touch icons -->
+    <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+    <header id="masthead">
+      <strong>Hi, I'm <a href="/" title="Home is where you go from here. It's also a movie you need to see. Look it up on YouTube.">{{ site.author.name }}</a>.</strong>
+      {{ site.tagline }}
+    </header>
+
+    <div id="wrapper">
+      {{ content }}
+    </div>
+
+    <footer>
+      <p>
+        &copy; {{ site.author.name }} 2012 
+        with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a> | Say <a href="mailto:hi@cabgfx.com">hi@cabgfx.com</a>
+      </p>
+    </footer>
+
+    {% include JB/analytics %}
+  </body>
+</html>

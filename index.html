@@ -1,0 +1,50 @@
+---
+layout: default
+title: CabGFX
+---
+{% include JB/setup %}
+
+<section class="posts">
+  <h2>Blog</h2>
+  <p>
+    Articles on design, code and craftsmanship on an infrequent schedule.
+    Stay updated on <a href="http://twitter.com/cabgfx">twitter</a> or <a href="{{ BASE_PATH }}/atom.xml">grab the feed</a>.
+  </p>
+
+  {% for post in site.posts %}
+    <article>
+      <header>
+        <h3><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h3>
+        <p>
+          <time datetime="{{ post.date }}" pubdate="pubdate">{{ post.date | date_to_long_string }}</time> &mdash;
+          Reading time: {{ post.reading_time }}
+        </p>
+      </header>
+
+      {{ post.content }}
+    </article>
+  {% endfor %}
+</section>
+
+<section class="presence">
+  <h3>About</h3>
+  <p>
+    I live in Copenhagen, Denmark with my lovely wife and our wonderful son.
+    I enjoy the privilege of doing what I love every day, as the creative lead of <a href="http://www.autobutler.dk">Autobutler.dk</a>.
+  </p>
+  <p>
+    My day-to-day work is concerned with tweaking interfaces and code to form products that matter to people.
+  </p>
+
+  <h3>Elsewhere</h3>
+  <ul>
+    <li><a href="http://zerp.ly/cabgfx" data-icon="zerply" title="LinkedIn is kinda old skool, but you can find me on there as well.">Professional timeline on <strong>Zerply</strong></a></li>
+    <li><a href="http://twitter.com/cabgfx" data-icon="twitter">Navel-gazing &amp; link-shuffling on <strong>twitter</strong></a></li>
+    <li><a href="http://dribbble.com/cabgfx" data-icon="dribbble">UI snapshots on <strong>dribbble</strong></a></li>
+    <li><a href="https://github.com/cabgfx" data-icon="github">Forays into open source hackery on <strong>GitHub</strong></a></li>
+    <li><a href="http://cabgfx.tumblr.com" data-icon="tumblr">Tidbits on <strong>Tumblr</strong></a></li>
+    <li><a href="http://last.fm/user/MrTza" data-icon="lastfm">Musical discoveries on <strong>Last.fm</strong></a></li>
+    <li><a href="http://delicious.com/cabgfx" data-icon="delicious">Bookmarks on <strong>Delicious</strong></a></li>
+    <li><span data-icon="tumblr">Lens flares on Instagram (@cabgfx)</span></li>
+  </ul>
+</section>

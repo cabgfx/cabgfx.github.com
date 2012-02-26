@@ -1,0 +1,38 @@
+h1, h2, h3 {
+  font-weight: 900;
+  line-height: 1.5em;
+  font-family: Lato, 'Quattrocento Sans', sans-serif;
+}
+
+h1 {font-size: 2em;}
+h2 {font-size: 1.3em;}
+h3 {font-size: 1.1em;}
+
+blockquote {
+  $color: #56514E;
+
+  padding: 0 0 0 15px;
+  margin: 1.25em 0 1.25em 1.25em;
+  color: $color;
+
+  p {
+    margin-bottom: 0;
+    font-style: italic;
+    font-size: 110%;
+  }
+
+  cite {
+    display: block;
+    line-height: 1em;
+    color: $textColorLight;
+    font-size: 80%;
+    &:before {
+      content: '\2014 \00A0';
+    }
+  }
+}
+
+.callout {
+  font-size: .8em; font-style: italic;
+  strong {display: block; font-style: normal;}
+}

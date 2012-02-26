@@ -1,0 +1,30 @@
+$bgColor: #cabcab;
+$lightColor: #d7cdc0;
+
+$textColor: #000;
+$textColorLight: #322A1F;
+
+$linkColor: #B03D2D;
+$linkColorVisited: #734327;
+
+$sectionBorderColor: darken($bgColor, 8%);
+
+@mixin base-text-shadow {
+  text-shadow: 0 1px 0 $lightColor;
+}
+
+@mixin section-border($direction) {
+  border-#{$direction}: 1px solid $sectionBorderColor;
+}
+
+@mixin chrome-border($direction) {
+  border-#{$direction}: 3px solid #191510;
+}
+
+@mixin transition($transition) {
+  -webkit-transition: $transition;
+     -moz-transition: $transition;
+      -ms-transition: $transition;
+       -o-transition: $transition;
+          transition: $transition;
+}

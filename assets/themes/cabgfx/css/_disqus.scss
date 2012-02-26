@@ -1,0 +1,14 @@
+#disqus_header {
+  margin-top: 40px;
+  @include section-border('bottom');
+}
+
+#dsq-new-post h3 {display: none !important;}
+
+.dsq-comment-header {
+  background: ligthen(textColorLight, 25%) !important;
+  font-size: 1.3em;
+}
+.dsq-moderator-star {display: none !important;}
+.dsq-comment-message {font-size: 1.2em;}
+.dsq-options {padding-bottom: .5em !important; border-bottom: 1px solid $sectionBorderColor !important; }
