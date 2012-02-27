@@ -36,8 +36,8 @@
     font-size: .8em;
     
     a {
-      strong {color: darken($linkColor, 15%);}
-      &:hover strong {color: $textColorLight;}
+      strong {color: $linkColorVisited;}
+      &:hover strong {color: darken($linkColorVisited, 15%);}
     } 
     
     @media (max-width: 479px) {

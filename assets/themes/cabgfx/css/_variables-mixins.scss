@@ -1,13 +1,14 @@
 $bgColor: #cabcab;
+$figColor: #f8fcf9;
 $lightColor: #d7cdc0;
 
 $textColor: #000;
 $textColorLight: #322A1F;
 
-$linkColor: #B03D2D;
-$linkColorVisited: #734327;
+$linkColor: #de5c02;
+$linkColorVisited: desaturate($linkColor, 55%);
 
-$sectionBorderColor: darken($bgColor, 8%);
+$sectionBorderColor: darken($figColor, 10%);
 
 @mixin base-text-shadow {
   text-shadow: 0 1px 0 $lightColor;
@@ -27,4 +28,10 @@ $sectionBorderColor: darken($bgColor, 8%);
       -ms-transition: $transition;
        -o-transition: $transition;
           transition: $transition;
+}
+
+@mixin box-shadow($shadow: 0 1px 3px rgba(0,0,0,.25)) {
+  -webkit-box-shadow: $shadow;
+     -moz-box-shadow: $shadow;
+          box-shadow: $shadow;
 }

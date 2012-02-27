@@ -1,12 +1,26 @@
+html {
+  background: $bgColor;
+
+  @media (min-width: 480px) {
+    background: $bgColor url(../images/bgpattern.png);
+  }
+}
+
 body {
   margin: 0 auto;
   padding: 2% 3%;
   min-width: 10em;
   max-width: 40em;
-  background: $bgColor;
+  background: $figColor;
   color: $textColor;
   font: normal 1em/1.5em 'Quattrocento Sans', sans-serif;
+
   @include chrome-border('top');
+  @include box-shadow((
+    0 0 10px rgba($textColor, .5),
+    -2px 0 0 #fff inset,
+    2px 0 0 #fff inset
+  ));
 
   @media (max-width: 767px) {
     font-size: .9em;
