@@ -2,7 +2,7 @@
 layout: post
 title: "Thoughts on the process #1: Sketching "
 category: 
-tags: []
+tags: [Process]
 reading_time: "3 min."
 ---
 {% include JB/setup %}
@@ -10,7 +10,7 @@ reading_time: "3 min."
 <p class="callout">
 <strong>Minimizing waste in the design cycle</strong>
 
-This is the first in a series of posts about being efficient when exploring solutions to a design. Sketching, wireframing, Photoshop and HTML/CSS each have their place in certain phases of the process. With this series, I want to give you an idea of which method to employ and highlight the advantages and pitfalls of each.
+This is the second in a series of posts about being efficient when exploring solutions to a design. Sketching, wireframing, Photoshop and HTML/CSS each have their place in certain phases of the process. I want to give you an idea of which method to employ and highlight the advantages and pitfalls of each.
 </p>
 
 I recently took a new job and switched from working with content-heavy sites to a task-oriented web application. This is an entirely new field for me, and it's got me thinking about how I approach my work as a designer.

@@ -1,4 +1,4 @@
-.posts, .single-post .content {
+.posts article, .single-post .content {
   &:after {
     content: '\221E';
     display: block;
@@ -16,20 +16,20 @@
     line-height: 1.5em;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 1023px) {
     time:after {content: ' \2014 ';}
   }
 
-  @media (min-width: 768px) {
-    padding: 0 15%;
+  @media (min-width: 1024px) {
+    padding: 0 18%;
   
     aside {
-      font-size: .9em;
+      font-size: .8em;
       color: $textColorLight;
 
-      .meta {position: absolute; top: .4em;}
-      time {left: 0; padding-right: 1em;}
-      span {right: 0; padding-left: 1em;}
+      .meta {position: absolute; top: .4em; width: 16%;}
+      time {left: 0;}
+      span {right: 0;}
     }
   }
 }

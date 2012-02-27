@@ -3,15 +3,16 @@
 
   <aside>
     <time class="meta" datetime="{{page.date}}" pubdate>{{ page.date | date_to_long_string }}</time>
-    <span class="meta">Reading time: {{ page.reading_time }}</span>
+    <span class="meta">
+      Reading time: {{ page.reading_time }}<br>
 
-    {% unless page.tags == empty %}
-      <h4>Posted in:</h4>
-      <ul class="tag_box">
-        {% assign tags_list = page.tags %}
-        {% include JB/tags_list %}
-      </ul>
-    {% endunless %}
+      {% unless page.tags == empty %}
+        Posted in:
+        {% for tag in page.tags %}
+          <a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }}</a>
+        {% endfor %}
+      {% endunless %}      
+    </span>
   </aside>
 
   <div class="content">

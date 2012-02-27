@@ -36,3 +36,14 @@ blockquote {
   font-size: .8em; font-style: italic;
   strong {display: block; font-style: normal;}
 }
+
+.footnotes {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  list-style-position: outside;
+  color: $textColorLight;
+  font-size: .8em;
+  @include section-border('top');
+}
+
+sup a {border: 0;}

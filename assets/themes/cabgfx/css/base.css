@@ -303,6 +303,17 @@ blockquote {
     display: block;
     font-style: normal; }
 
+.footnotes {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  list-style-position: outside;
+  color: #322a1f;
+  font-size: .8em;
+  border-top: 1px solid #baa892; }
+
+sup a {
+  border: 0; }
+
 .posts {
   width: 60%;
   float: left; }
@@ -341,7 +352,7 @@ blockquote {
   .posts, .presence {
     float: none;
     width: 100%; } }
-.posts:after, .single-post .content:after {
+.posts article:after, .single-post .content:after {
   content: '\221E';
   display: block;
   color: #d7cdc0;
@@ -353,24 +364,23 @@ blockquote {
   .single-post .content {
     font-size: 1.1em;
     line-height: 1.5em; }
-  @media (max-width: 767px) {
+  @media (max-width: 1023px) {
     .single-post time:after {
       content: ' \2014 '; } }
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     .single-post {
-      padding: 0 15%; }
+      padding: 0 18%; }
       .single-post aside {
-        font-size: .9em;
+        font-size: .8em;
         color: #322a1f; }
         .single-post aside .meta {
           position: absolute;
-          top: .4em; }
+          top: .4em;
+          width: 16%; }
         .single-post aside time {
-          left: 0;
-          padding-right: 1em; }
+          left: 0; }
         .single-post aside span {
-          right: 0;
-          padding-left: 1em; } }
+          right: 0; } }
 
 #disqus_header {
   margin-top: 40px;
