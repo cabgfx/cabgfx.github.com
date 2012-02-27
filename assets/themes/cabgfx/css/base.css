@@ -313,12 +313,14 @@ blockquote {
     font-style: normal; }
 
 .footnotes {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  list-style-position: outside;
+  padding: 1em 0;
+  list-style-position: inside;
   color: #322a1f;
   font-size: .8em;
   border-top: 1px solid #d4edda; }
+  @media (min-width: 1024px) {
+    .single-post .footnotes {
+      list-style-position: outside; } }
 
 sup a {
   border: 0; }

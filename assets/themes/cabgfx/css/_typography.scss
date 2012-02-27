@@ -38,12 +38,15 @@ blockquote {
 }
 
 .footnotes {
-  padding-top: 1em;
-  padding-bottom: 1em;
-  list-style-position: outside;
+  padding: 1em 0;
+  list-style-position: inside;
   color: $textColorLight;
   font-size: .8em;
   @include section-border('top');
+
+  @media(min-width: 1024px) {
+    .single-post & {list-style-position: outside;}
+  }
 }
 
 sup a {border: 0;}
