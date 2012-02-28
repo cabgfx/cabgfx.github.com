@@ -8,7 +8,7 @@ $textColorLight: #322A1F;
 $linkColor: #de5c02;
 $linkColorVisited: desaturate($linkColor, 55%);
 
-$sectionBorderColor: darken($figColor, 10%);
+$sectionBorderColor: lighten(desaturate($lightColor, 5%), 10%);
 
 @mixin base-text-shadow {
   text-shadow: 0 1px 0 $lightColor;

@@ -256,7 +256,7 @@ body {
   color: #322a1f;
   font-size: .9em;
   line-height: 1.5em;
-  border-bottom: 1px solid #d4edda; }
+  border-bottom: 1px solid #eae6e0; }
   #masthead strong {
     display: block; }
   #masthead a {
@@ -317,7 +317,7 @@ blockquote {
   list-style-position: inside;
   color: #322a1f;
   font-size: .8em;
-  border-top: 1px solid #d4edda; }
+  border-top: 1px solid #eae6e0; }
   @media (min-width: 1024px) {
     .single-post .footnotes {
       list-style-position: outside; } }
@@ -333,7 +333,7 @@ sup a {
     .posts > h2 + p {
       margin: 0 0 2em;
       padding-bottom: 1em;
-      border-bottom: 1px solid #d4edda; }
+      border-bottom: 1px solid #eae6e0; }
   .posts article header h3 {
     margin-bottom: 0; }
   .posts article header p {
@@ -395,7 +395,7 @@ sup a {
 
 #disqus_header {
   margin-top: 40px;
-  border-bottom: 1px solid #d4edda; }
+  border-bottom: 1px solid #eae6e0; }
 
 #dsq-new-post h3 {
   display: none !important; }
@@ -412,4 +412,4 @@ sup a {
 
 .dsq-options {
   padding-bottom: .5em !important;
-  border-bottom: 1px solid #d4edda !important; }
+  border-bottom: 1px solid #eae6e0 !important; }
