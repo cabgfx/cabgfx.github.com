@@ -4,6 +4,7 @@ title: "Thoughts on the process #1: Sketching "
 category: 
 tags: [Process]
 reading_time: "3 min."
+description: Sketching is an indispensable tool when exploring solutions to a design. But the low fidelity can also hinder your ability to hone in on the solution.
 ---
 {% include JB/setup %}
 

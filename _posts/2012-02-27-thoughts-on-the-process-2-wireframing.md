@@ -4,6 +4,7 @@ title: "Thoughts on the process #2: Wireframing"
 category: 
 tags: [Process]
 reading_time: 3 min.
+description: Wireframes are great for lots of things in the design process – but they tend to create a false sense of agreement when employed in the wrong settings.
 ---
 {% include JB/setup %}
 
