@@ -325,6 +325,9 @@ blockquote {
 sup a {
   border: 0; }
 
+pre, code, kbd, samp {
+  color: #888; }
+
 .posts {
   width: 60%;
   float: left; }
@@ -374,7 +377,7 @@ sup a {
   position: relative; }
   .single-post .content {
     font-size: 1.1em;
-    line-height: 1.5em; }
+    line-height: 1.6em; }
   @media (max-width: 1023px) {
     .single-post time:after {
       content: ' \2014 '; } }
