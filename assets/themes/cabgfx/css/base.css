@@ -396,6 +396,23 @@ pre, code, kbd, samp {
         .single-post aside span {
           right: 0; } }
 
+figure {
+  text-align: center; }
+  figure img {
+    display: block;
+    margin: 0 auto .5em;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid #a8a8a8;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); }
+  figure figcaption {
+    display: block;
+    margin: 0 auto 2em;
+    color: #322a1f;
+    font-size: .8em;
+    font-style: italic; }
+
 #disqus_header {
   margin-top: 40px;
   border-bottom: 1px solid #eae6e0; }
