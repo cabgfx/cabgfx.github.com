@@ -68,13 +68,13 @@ This global overview is complimented by each project's _Catch up on recent chang
 
 Another thing that works well is how Discussions are aggregated on the main project page from all comments, on all items. This is especially great compared to the old Dashboard and Messages index, both tedious to go through when you just needed to get an idea of what was currently being discussed.
 
-You can also have a daily catch-up mail sent to you at 7am with yesterdays progress and as always, you subscribe to RSS feeds of your projects activity. All of these things might seem a bit daunting at first, but they're not. Apart from the occasional overflow of emails, the team at 37signals seems to have struck a near-perfect balance with regards to how and when you catch up on a project.
+You can also have a daily catch-up mail sent to you at 7am with yesterdays progress and as always, you can subscribe to RSS feeds of your projects activity. All of these things might seem a bit daunting at first, but they're not. Apart from the occasional overflow of emails, the team at 37signals seems to have struck a near-perfect balance with regards to how and when you catch up on a project.
 
 ## Quirks
 
 As I mentioned in the start of this post, there are some parts of the new Basecamp that rub me the wrong way. But the fact that they're all minor details, speaks volumes about the quality of the first release.
 
-First of all, the administration of people and their permissions/project access is a bit wonky. For example, new invitees are granted permission to create new projects by default - that surprised me a bit, but it's not that bad. However, when compared with the fact that new projects aren't visible to me, an Administrator _and_ the account owner, it becomes weird. Regardless of your role & permissions in the account, you can only see projects to which you've been granted access. That just doesn't feel right, especially on accounts with a set project limit.
+First of all, the administration of people and their permissions/project access is a bit wonky. For example, new invitees are granted permission to create new projects by default - that surprised me a bit, but it's not that bad. However, when compared with the fact that new projects they create aren't initially visible to me, an Administrator _and_ the account owner, it becomes weird. Regardless of your role & permissions in the account, you can only see projects to which you've explicitly been granted access. That just doesn't feel right, especially on accounts with a set project limit.
 
 Generally speaking, I sometimes get lost navigating between sheets (pages). I tried narrowing it down to a specific example/scenario, but I couldn't – it's just one of those things that's hard to explain until you try it yourself.
 
