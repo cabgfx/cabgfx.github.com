@@ -33,3 +33,26 @@
     }
   }
 }
+
+figure {
+  text-align: center;
+
+  img {
+    display: block;
+    margin: 0 auto .5em;
+    padding: 1em;
+    background: #fff;
+    border: 1px solid desaturate(lighten($textColorLight, 50%), 50%);
+
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,.15);
+  }
+
+  figcaption {
+    display: block;
+    margin: 0 auto 2em;
+    color: $textColorLight;
+    font-size: .8em;
+    font-style: italic;
+  }
+}
