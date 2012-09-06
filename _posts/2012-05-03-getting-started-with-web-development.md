@@ -24,7 +24,7 @@ Think of it from the perspective of a complete beginner, with no prior understan
 [codeacademy]: http://www.codecademy.com/tracks/web/
 
 ## Online tutorials & references
-* [W3 Schools](http://w3schools.com/) - one of the first and most content-rich resources. Lots of tutorials and reference pages, all written for novices. The basic HTML & CSS stuff are great starting points, albeit a bit outdated; combine with the HTML5 & CSS3 parts when you've got the basics down. 
+* [SitePoint](http://reference.sitepoint.com/html) - good, basic references & resources to get going. I haven't gone through them all, but there's generally high quality to be found.
 * [HTML5 Doctor](http://html5doctor.com/) - a great site for understanding the semantics behind the new additions to HTML, and how, when and where to apply them. It does require an understanding of the basics of HTML, however.
 
 ## Books
