@@ -10,6 +10,9 @@ $linkColorVisited: desaturate($linkColor, 55%);
 
 $sectionBorderColor: lighten(desaturate($lightColor, 5%), 10%);
 
+$headingfont: "ff-meta-serif-web-pro", sans-serif;
+$basefont: "proxima-nova", sans-serif;
+
 @mixin base-text-shadow {
   text-shadow: 0 1px 0 $lightColor;
 }

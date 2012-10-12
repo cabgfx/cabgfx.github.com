@@ -13,11 +13,10 @@ body { margin: 0; font-size: 1em; line-height: 1.4; }
 a {
   color: $linkColor;
   text-decoration: none;
-  border-bottom: 1px solid;
   @include transition(all .1s);
 }
 a:visited { color: $linkColorVisited; }
-a:hover { color: lighten($linkColor, 7.5%); border-color: transparent; }
+a:hover { color: lighten($linkColor, 7.5%); text-decoration: underline; }
 a:focus { outline: thin dotted; }
 a:hover, a:active { outline: 0; }
 
