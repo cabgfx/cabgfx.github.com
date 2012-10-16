@@ -1,6 +1,7 @@
 @import 'variables-mixins';
-@import 'reset';
+@import "normalize";
 @import 'chrome';
+@import 'elements';
 @import 'typography';
 @import 'frontpage';
 @import 'posts';

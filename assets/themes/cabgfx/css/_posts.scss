@@ -1,6 +1,11 @@
-img {max-width: 100%;}
+.single-post {position: relative;}
 
-.posts article, .single-post .content {
+.single-post .content {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  
+  li + li {margin-top: 1em;}
+
   &:after {
     content: '\221E';
     display: block;
@@ -10,24 +15,21 @@ img {max-width: 100%;}
   }
 }
 
-.single-post {
-  position: relative;
+.single-post aside {margin-bottom: 1em; color: $figCaptionColor;}
 
-  .content {
-    font-size: 1.1em;
-    line-height: 1.5em;
-    
-    li + li {margin-top: 1em; }
+@media (max-width: 1023px) {
+  .single-post {
+    h1 {margin-bottom: 0;}
+    time:after {content: ' \2014 ';} 
   }
+}
 
-  @media (max-width: 1023px) {
-    time:after {content: ' \2014 ';}
-  }
-
-  @media (min-width: 1024px) {
+@media (min-width: 1025px) {
+  .single-post {
     padding: 0 18%;
-  
+
     aside {
+      margin-bottom: 0;
       font-size: .8em;
       color: $textColorLight;
 
@@ -40,11 +42,6 @@ img {max-width: 100%;}
 
 figure {
   text-align: center;
-  -webkit-margin-before: 0;
-  -webkit-margin-after: 0;
-  -webkit-margin-start: 0;
-  -webkit-margin-end: 0;
-
   padding: .5em;
   background: #fff;
   border: 1px solid desaturate(lighten($textColorLight, 50%), 50%);
@@ -58,5 +55,9 @@ figure {
     color: $figCaptionColor;
     font-size: .8em;
     font-style: italic;
+  }
+
+  @media (min-width: 1025px) {
+    .single-post & {width: 124%; margin-left: -28.2%;}
   }
 }
