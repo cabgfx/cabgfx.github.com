@@ -221,7 +221,7 @@ td {
 
 html {
   background: #cabcab; }
-  @media (min-width: 480px) {
+  @media (min-width: 481px) {
     html {
       background: #cabcab url(../images/bgpattern.png); } }
 
@@ -240,9 +240,9 @@ body {
   @media (max-width: 767px) {
     body {
       font-size: .9em; } }
-  @media (min-width: 768px) {
+  @media (min-width: 769px) {
     body {
-      max-width: 80%; } }
+      max-width: 70%; } }
   @media (min-width: 1200px) {
     body {
       font-size: 1.2em; } }
@@ -367,6 +367,9 @@ pre, code, kbd, samp {
   .posts, .presence {
     float: none;
     width: 100%; } }
+img {
+  max-width: 100%; }
+
 .posts article:after, .single-post .content:after {
   content: '\221E';
   display: block;
@@ -400,19 +403,21 @@ pre, code, kbd, samp {
           right: 0; } }
 
 figure {
-  text-align: center; }
-  figure img {
-    display: block;
-    margin: 0 auto .5em;
-    padding: 1em;
-    background: #fff;
-    border: 1px solid #a8a8a8;
-    border-radius: 3px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); }
+  text-align: center;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  padding: .5em;
+  background: #fff;
+  border: 1px solid #a8a8a8;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); }
   figure figcaption {
     display: block;
-    margin: 0 auto 2em;
-    color: #322a1f;
+    margin: .5em auto 0;
+    max-width: 66%;
+    color: #969490;
     font-size: .8em;
     font-style: italic; }
 

@@ -1,3 +1,5 @@
+img {max-width: 100%;}
+
 .posts article, .single-post .content {
   &:after {
     content: '\221E';
@@ -38,22 +40,22 @@
 
 figure {
   text-align: center;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
 
-  img {
-    display: block;
-    margin: 0 auto .5em;
-    padding: 1em;
-    background: #fff;
-    border: 1px solid desaturate(lighten($textColorLight, 50%), 50%);
-
-    border-radius: 3px;
-    box-shadow: 0 0 5px rgba(0,0,0,.15);
-  }
+  padding: .5em;
+  background: #fff;
+  border: 1px solid desaturate(lighten($textColorLight, 50%), 50%);
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0,0,0,.15);
 
   figcaption {
     display: block;
-    margin: 0 auto 2em;
-    color: $textColorLight;
+    margin: .5em auto 0;
+    max-width: 66%;
+    color: $figCaptionColor;
     font-size: .8em;
     font-style: italic;
   }
