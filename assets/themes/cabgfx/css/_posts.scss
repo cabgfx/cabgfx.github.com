@@ -42,7 +42,7 @@
 
 figure {
   text-align: center;
-  padding: .5em;
+  padding: 0 0 .5em;
   background: #fff;
   border: 1px solid desaturate(lighten($textColorLight, 50%), 50%);
   border-radius: 3px;
@@ -55,9 +55,10 @@ figure {
     color: $figCaptionColor;
     font-size: .8em;
     font-style: italic;
+    line-height: 1.2em;
   }
 
   @media (min-width: 1025px) {
-    .single-post & {width: 124%; margin-left: -28.2%;}
+    .single-post & {width: 124%; margin-left: -28%;}
   }
 }

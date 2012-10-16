@@ -651,7 +651,7 @@ pre, code, kbd, samp {
         right: 0; } }
 figure {
   text-align: center;
-  padding: .5em;
+  padding: 0 0 .5em;
   background: #fff;
   border: 1px solid #a8a8a8;
   border-radius: 3px;
@@ -662,11 +662,12 @@ figure {
     max-width: 66%;
     color: #969490;
     font-size: .8em;
-    font-style: italic; }
+    font-style: italic;
+    line-height: 1.2em; }
   @media (min-width: 1025px) {
     .single-post figure {
       width: 124%;
-      margin-left: -28.2%; } }
+      margin-left: -28%; } }
 
 #disqus_header {
   margin-top: 40px;
