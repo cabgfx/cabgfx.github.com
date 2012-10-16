@@ -40,7 +40,7 @@ body {
 
 footer {
   clear: both;
-  color: $textColorLight;
+  color: $textColorLighter;
   font-size: .8em;
   @include chrome-border('top');
 }

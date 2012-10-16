@@ -15,7 +15,7 @@
   }
 }
 
-.single-post aside {margin-bottom: 1em; color: $figCaptionColor;}
+.single-post aside {margin-bottom: 1em; color: $textColorLighter;}
 
 @media (max-width: 1023px) {
   .single-post {
@@ -52,7 +52,7 @@ figure {
     display: block;
     margin: .5em auto 0;
     max-width: 66%;
-    color: $figCaptionColor;
+    color: $textColorLighter;
     font-size: .8em;
     font-style: italic;
     line-height: 1.2em;
