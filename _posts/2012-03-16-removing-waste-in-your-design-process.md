@@ -103,3 +103,10 @@ If you want to observe a master at work, who makes all of this seem easy, I high
 [rjs]: http://peepcode.com/products/ryan-singer-ux
 
 Share your thoughts in the comments, on twitter or anywhere else you feel like it.
+
+**Related reading**  
+[Responsive Design Warrants a Change in Workflow][gb] — Gary Bacon  
+[The Post-PSD Era][bf] — Brad Frost
+
+[gb]: http://garybacon.com/post/responsive-design-warrants-a-change-in-workflow/
+[bf]: http://bradfrostweb.com/blog/post/the-post-psd-era/
