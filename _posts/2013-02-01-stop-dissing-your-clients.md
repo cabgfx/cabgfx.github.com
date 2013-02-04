@@ -38,7 +38,7 @@ And yes, some people really aren't very good at comprehending what it is that we
 
 Then, perhaps, the real issue is: Don't work with amateurs. Don't work with anyone who doesn't respect you, your craft or your position as an equal partner in a professional relationship. Learn to gauge your client's initial level of engagement, and if it doesn't meet the standards you hold yourself to, disengage. It's that simple.
 
-I'm not saying you should just fire customers willy-nilly (bad idea if you're in it for the long haul), and I'm definitely not advocating an elitist approach to how you conduct your businees. However, [*No* is such a powerful word][no], and I'm beginning to see how, when employed with good sense and respect, it can be truly liberating.
+I'm not saying you should just fire customers willy-nilly (bad idea if you're in it for the long haul), and I'm definitely not advocating an elitist approach to how you conduct your business. However, [*No* is such a powerful word][no], and I'm beginning to see how, when employed with good sense and respect, it can be truly liberating.
 
 [no]: http://jasonsantamaria.com/articles/saying-no (A great CreativeMornings talk by Jason Santa Maria.)
 
