@@ -9,19 +9,20 @@ reading_time: 3 min.
 
 I was asked the other day to compile a list of resources for a friend that wants to get started designing & building for the web. 
 
-As I was compiling the list, it dawned on me how far we've come. When I first started scratching the surface of this wonderful little world of ours, resources were scarce and mostly _HTML for dummies_-type-stuff. Nowadays, there's an immense amount of material available in all sorts and shapes, and I'm especially keen on the recent rise of interactive courses. Sites like Treehouse, Code School and Code Academy are definitely pushing the envelope in this space, and I can only imagine where we'll be 10 years from now.
+As I was compiling the list, it dawned on me how far we've come. Not long ago, resources were scarce and mostly _HTML for dummies_-type-stuff. Now there's an immense amount of material available, and I'm especially keen on the recent rise of interactive courses. Sites like Treehouse, Code School and Code Academy are really pushing the envelope in this space, and I can only imagine where we'll be 10 years from now.
 
-The following list is what I came up with initially, and I'm posting it here in hopes of expanding it over time. I realize it's quite rudimentary right now, so please chime in with your own list, or even just a single item/link, in the comments.
-Think of it from the perspective of a complete beginner, with no prior understanding of how a website is built. Thanks.
+The following list is what I came up with initially, and I'll be expanding it over time. If you can think of any resources I haven't listed, please suggest them in the comments below. Think of it from the perspective of a complete beginner, with no prior understanding of how a website is built. Thanks.
 
 ## Interactive courses
 * [Codeacademy][] - The title says it all: _Web Fundamentals_
 * [Treehouse][] - A bit more advanced, but still great if you're just getting your feet wet.
 * [Code School][] - Advanced frontend coding (HTML, CSS and Javascript) and programming courses.
+* [Code.org][] - Simple courses to get your feet wet, plus a whole slew of additional resources to dig into.
 
 [treehouse]: http://teamtreehouse.com/
 [code school]: http://www.codeschool.com/
 [codeacademy]: http://www.codecademy.com/tracks/web/
+[codeorg]: http://www.code.org/
 
 ## Online tutorials & references
 * [SitePoint](http://reference.sitepoint.com/html) - good, basic references & resources to get going. I haven't gone through them all, but there's generally high quality to be found.
@@ -36,13 +37,13 @@ I had trouble finding the best entry-level books on website design & development
 * [Every single book from A Book Apart](http://abookapart.com) - every single one is excellent and will prepare you for building the websites of tomorrow.
 
 ## General thoughts on web design & development
-This list could easily go on forever, but these are _some_ of the people/places I've found to consistenly post great articles on how to build better software for the web:
+This list could easily go on forever, but these are _some_ of the people/places I've found to consistently post great articles on how to build better software for the web:
 
 * [A List Apart](http://www.alistapart.com/articles/)
 * [Ryan Singer](http://feltpresence.com)
 * [Des Traynor / Intercom blog](http://blog.intercom.io/)
 * Joshua Porter - both [his personal blog](http://bokardo.com) and the co-op [52 Weeks of UX](http://52weeksofux.com/)
 * [Method & Craft](http://methodandcraft.com/)
-* [Anders Toxboe](http://ui-patterns.com/blog)
+* [Brad Frost](http://bradfrostweb.com/blog/)
 
 Finally, you should check out my earlier post on [how to maximize your productivity](http://cabgfx.com/2012/03/16/removing-waste-in-your-design-process/) when you start designing that awesome thing you have in mind. Oh, and remember: sites with pictures of funny cats will never go out of fashion. Now go and build something!
