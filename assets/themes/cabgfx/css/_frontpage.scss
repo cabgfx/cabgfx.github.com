@@ -30,15 +30,22 @@
   ul {
     list-style: none;
     padding: 0;
-    font-size: .8em;
-    
+    font-size: 14px;
+
+    li {
+      margin: 0 1em 1em 0;
+    }
+
+    li[data-icon]:before {
+      font-size: 1.8em;
+      vertical-align: middle;
+      margin-right: .15em;
+      color: $textColorLighter;
+    }
+
     a {
-      strong {color: $linkColorVisited;}
-      &:hover strong {color: darken($linkColorVisited, 15%);}
-    } 
-    
-    @media (max-width: 479px) {
-      li {margin-bottom: 1em;}
+      color: $textColorLighter;
+      &:hover {color: darken($linkColorVisited, 15%);}
     }
   }
 }

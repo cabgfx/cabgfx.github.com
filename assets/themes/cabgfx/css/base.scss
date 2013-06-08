@@ -1,8 +1,11 @@
 @import 'variables-mixins';
 @import "normalize";
+
 @import 'chrome';
 @import 'elements';
-@import 'typography';
+@import 'type';
+@import 'icons';
+
 @import 'frontpage';
 @import 'posts';
 

@@ -1,4 +1,6 @@
 body {
+  @include chrome-border('top');
+
   margin: 0 auto;
   padding: 2% 3%;
   min-width: 10em;
@@ -7,11 +9,7 @@ body {
   color: $textColor;
   font: normal 1em/1.5em $basefont;
 
-  @include chrome-border('top');
-
-  @media (max-width: 767px) {font-size: .9em;}
   @media (min-width: 769px) {max-width: 70%;}
-  @media (min-width: 1200px) {font-size: 1.2em;}
 }
 
 #masthead {
@@ -39,8 +37,12 @@ body {
 #wrapper {overflow: hidden; margin-bottom: 3em;}
 
 footer {
+  @include chrome-border('top');
+
   clear: both;
   color: $textColorLighter;
-  font-size: .8em;
-  @include chrome-border('top');
+  font-size: .75em;
+  text-align: center;
+  
+  a:link, a:visited {color: $textColorLight;}
 }

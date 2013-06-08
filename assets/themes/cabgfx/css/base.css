@@ -429,23 +429,17 @@ table {
   border-spacing: 0; }
 
 body {
+  border-top: 3px solid #191510;
   margin: 0 auto;
   padding: 2% 3%;
   min-width: 10em;
   max-width: 40em;
   background: #f8fcf9;
   color: black;
-  font: normal 1em/1.5em "proxima-nova", sans-serif;
-  border-top: 3px solid #191510; }
-  @media (max-width: 767px) {
-    body {
-      font-size: .9em; } }
+  font: normal 1em/1.5em "proxima-nova", sans-serif; }
   @media (min-width: 769px) {
     body {
       max-width: 70%; } }
-  @media (min-width: 1200px) {
-    body {
-      font-size: 1.2em; } }
 
 #masthead {
   border-bottom: 1px solid #e4dfd9;
@@ -469,10 +463,13 @@ body {
   margin-bottom: 3em; }
 
 footer {
+  border-top: 3px solid #191510;
   clear: both;
   color: #969490;
-  font-size: .8em;
-  border-top: 3px solid #191510; }
+  font-size: .75em;
+  text-align: center; }
+  footer a:link, footer a:visited {
+    color: #322a1f; }
 
 ::-moz-selection {
   background: #322a1f;
@@ -514,6 +511,13 @@ figure {
 
 img {
   max-width: 100%; }
+
+@media (max-width: 767px) {
+  body {
+    font-size: .9em; } }
+@media (min-width: 1200px) {
+  body {
+    font-size: 1.2em; } }
 
 h1, h2, h3 {
   font-weight: bold;
@@ -570,6 +574,24 @@ sup a {
 pre, code, kbd, samp {
   color: #888; }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon);
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; }
+
 .posts {
   width: 60%;
   float: left; }
@@ -597,14 +619,18 @@ pre, code, kbd, samp {
   .presence ul {
     list-style: none;
     padding: 0;
-    font-size: .8em; }
-    .presence ul a strong {
-      color: #a06740; }
-    .presence ul a:hover strong, .presence ul #masthead a:hover strong, #masthead .presence ul a:hover strong {
-      color: #6a442a; }
-    @media (max-width: 479px) {
-      .presence ul li {
-        margin-bottom: 1em; } }
+    font-size: 14px; }
+    .presence ul li {
+      margin: 0 1em 1em 0; }
+    .presence ul li[data-icon]:before {
+      font-size: 1.8em;
+      vertical-align: middle;
+      margin-right: .15em;
+      color: #969490; }
+    .presence ul a {
+      color: #969490; }
+      .presence ul a:hover, .presence ul #masthead a:hover, #masthead .presence ul a:hover {
+        color: #6a442a; }
 
 @media (max-width: 767px) {
   .posts, .presence {
