@@ -1,30 +1,24 @@
 ---
 layout: post
 title: "Getting started with web development"
-category: 
+category:
 tags: []
 reading_time: 3 min.
 ---
 {% include JB/setup %}
 
-I was asked the other day to compile a list of resources for a friend that wants to get started designing & building for the web. 
+I was asked the other day to compile a list of resources for a friend that wants to get started designing & building for the web.
 
 As I was compiling the list, it dawned on me how far we've come. Not long ago, resources were scarce and mostly _HTML for dummies_-type-stuff. Now there's an immense amount of material available, and I'm especially keen on the recent rise of interactive courses. Sites like Treehouse, Code School and Code Academy are really pushing the envelope in this space, and I can only imagine where we'll be 10 years from now.
 
 The following list is what I came up with initially, and I'll be expanding it over time. If you can think of any resources I haven't listed, please suggest them in the comments below. Think of it from the perspective of a complete beginner, with no prior understanding of how a website is built. Thanks.
 
 ## Interactive courses
-* [Codeacademy][] - The title says it all: _Web Fundamentals_
-* [Treehouse][] - A bit more advanced, but still great if you're just getting your feet wet.
-* [Code School][] - Advanced frontend coding (HTML, CSS and Javascript) and programming courses.
-* [Code.org][] - Simple courses to get your feet wet, plus a whole slew of additional resources to dig into.
-* [Udemy.com][] - Since I first published this, a lot of sites have added tons of great courses, materials, etc. Udemy especially have quite a catalogue to peruse these days.
-
-[treehouse]: http://teamtreehouse.com/
-[code school]: http://www.codeschool.com/
-[codeacademy]: http://www.codecademy.com/tracks/web/
-[codeorg]: http://www.code.org/
-[udemycom]: https://www.udemy.com/
+* [Codeacademy](http://www.codeschool.com/) - The title says it all: _Web Fundamentals_
+* [Treehouse](http://teamtreehouse.com/) - A bit more advanced, but still great if you're just getting your feet wet.
+* [Code School](http://www.codecademy.com/tracks/web/) - Advanced frontend coding (HTML, CSS and Javascript) and programming courses.
+* [Code.org](http://www.code.org/) - Simple courses to get your feet wet, plus a whole slew of additional resources to dig into.
+* [Udemy.com](https://www.udemy.com/) - Since I first published this, a lot of sites have added tons of great courses, materials, etc. Udemy especially have quite a catalogue to peruse these days.
 
 ## Online tutorials & references
 * [SitePoint](http://reference.sitepoint.com/html) - good, basic references & resources to get going. I haven't gone through them all, but there's generally high quality to be found.
