@@ -18,15 +18,18 @@ The following list is what I came up with initially, and I'll be expanding it ov
 * [Treehouse][] - A bit more advanced, but still great if you're just getting your feet wet.
 * [Code School][] - Advanced frontend coding (HTML, CSS and Javascript) and programming courses.
 * [Code.org][] - Simple courses to get your feet wet, plus a whole slew of additional resources to dig into.
+* [Udemy.com][] - Since I first published this, a lot of sites have added tons of great courses, materials, etc. Udemy especially have quite a catalogue to peruse these days.
 
 [treehouse]: http://teamtreehouse.com/
 [code school]: http://www.codeschool.com/
 [codeacademy]: http://www.codecademy.com/tracks/web/
 [codeorg]: http://www.code.org/
+[udemycom]: https://www.udemy.com/
 
 ## Online tutorials & references
 * [SitePoint](http://reference.sitepoint.com/html) - good, basic references & resources to get going. I haven't gone through them all, but there's generally high quality to be found.
 * [HTML5 Doctor](http://html5doctor.com/) - a great site for understanding the semantics behind the new additions to HTML, and how, when and where to apply them. It does require an understanding of the basics of HTML, however.
+* [Udemy](https://blog.udemy.com/learn-html-learn-the-foundations-of-html/) - recently posted a good, thorough and up to date introduction to HTML. Great primer for anyone looking to start with the very basics.
 
 ## Books
 I had trouble finding the best entry-level books on website design & development, so the books on this list all require a general idea of how websites come to be.
