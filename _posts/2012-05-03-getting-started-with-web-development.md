@@ -30,7 +30,7 @@ I had trouble finding the best entry-level books on website design & development
 
 * [Don't Make Me Think](http://amzn.to/IG5NEh), Steve Krug - the usability bible. Mandatory reading.
 * [Bulletproof Web Design](http://amzn.to/IG59Xx), Dan Cederholm - a great resource for applying best practices to the way you build websites.
-* [Designing with Web Standards](http://amzn.to/IG59Xx), Jeffrey Zeldman and Ethan Marcotte - I've never read this myself, but I'm pretty sure the authors earned some of their stripes with this opus.
+* [Designing with Web Standards](http://amzn.com/0321616952), Jeffrey Zeldman and Ethan Marcotte - I've never read this myself, but I'm pretty sure the authors earned some of their stripes with this opus.
 * [Every single book from A Book Apart](http://abookapart.com) - every single one is excellent and will prepare you for building the websites of tomorrow.
 
 ## General thoughts on web design & development
