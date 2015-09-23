@@ -1,4 +1,4 @@
-/* normalize.css v1.0.1 | MIT License | git.io/normalize */
+/*! normalize.css v1.0.1 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
    ========================================================================== */
@@ -431,21 +431,21 @@ table {
 body {
   border-top: 3px solid #191510;
   margin: 0 auto;
-  padding: 2% 3%;
-  min-width: 10em;
-  max-width: 40em;
-  background: #f8fcf9;
+  padding: 0 3% 460px;
+  background: #e9e9e9 url("/assets/themes/cabgfx/images/bg.jpg") no-repeat center bottom;
+  background-size: auto 460px;
   color: black;
   font: normal 1em/1.5em "proxima-nova", sans-serif; }
-  @media (min-width: 769px) {
+  @media (min-width: 621px) {
     body {
-      max-width: 70%; } }
+      padding: 2% 10% 2% 38.01563%;
+      background-size: 36.01563%;
+      background-position: left bottom;
+      background-attachment: fixed; } }
 
 #masthead {
-  border-bottom: 1px solid #e4dfd9;
   position: relative;
   padding-top: 1em;
-  margin-bottom: 3em;
   padding-bottom: 1em;
   color: #322a1f;
   font-size: .9em;
@@ -454,20 +454,15 @@ body {
     display: block; }
   #masthead a {
     color: black; }
-  @media (max-width: 767px) {
-    #masthead {
-      margin-bottom: 1em; } }
 
 #wrapper {
   overflow: hidden;
   margin-bottom: 3em; }
 
 footer {
-  border-top: 3px solid #191510;
   clear: both;
   color: #969490;
-  font-size: .75em;
-  text-align: center; }
+  font-size: .75em; }
   footer a:link, footer a:visited {
     color: #322a1f; }
 
@@ -512,7 +507,7 @@ figure {
 img {
   max-width: 100%; }
 
-@media (max-width: 767px) {
+@media (max-width: 620px) {
   body {
     font-size: .9em; } }
 @media (min-width: 1200px) {
@@ -528,10 +523,7 @@ h1 {
   font-size: 2em;
   line-height: 1.2em; }
 
-h2 {
-  font-size: 1.3em; }
-
-h3 {
+h2, h3 {
   font-size: 1.1em; }
 
 blockquote {
@@ -563,7 +555,7 @@ blockquote {
   list-style-position: inside;
   color: #322a1f;
   font-size: .8em;
-  border-top: 1px solid #e4dfd9; }
+  border-top: 1px solid #dad3ca; }
   @media (min-width: 1024px) {
     .single-post .footnotes {
       list-style-position: outside; } }
@@ -580,7 +572,6 @@ pre, code, kbd, samp {
   src: url("../fonts/icomoon.eot?#iefix") format("embedded-opentype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.svg#icomoon") format("svg");
   font-weight: normal;
   font-style: normal; }
-
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 [data-icon]:before {
   font-family: 'icomoon';
@@ -592,55 +583,43 @@ pre, code, kbd, samp {
   line-height: 1;
   -webkit-font-smoothing: antialiased; }
 
-.posts {
-  width: 60%;
-  float: left; }
-  .posts > h2 {
-    margin-bottom: 0; }
-    .posts > h2 + p {
-      margin: 0 0 2em;
-      padding-bottom: 1em;
-      border-bottom: 1px solid #e4dfd9; }
-  .posts article header h3 {
-    margin-bottom: 0;
-    line-height: 1em; }
-  .posts article header p {
-    margin-top: 0;
-    color: #322a1f;
-    font-size: .8em; }
-
 .presence {
-  width: 30%;
-  float: right; }
-  .presence p {
-    font-size: .8em;
-    line-height: 1.5em;
-    color: #322a1f; }
-  .presence ul {
-    list-style: none;
-    padding: 0;
-    font-size: 14px; }
-    .presence ul li {
-      margin: 0 1em 1em 0; }
-    .presence ul li[data-icon]:before {
-      font-size: 1.8em;
-      vertical-align: middle;
-      margin-right: .15em;
-      color: #969490; }
-    .presence ul a {
-      color: #969490; }
-      .presence ul a:hover, .presence ul #masthead a:hover, #masthead .presence ul a:hover {
-        color: #6a442a; }
+  margin-bottom: 1.9em; }
+.presence p {
+  line-height: 1.5em;
+  color: #322a1f; }
+.presence ul {
+  list-style: none;
+  padding: 0;
+  font-size: 14px; }
+  .presence ul li {
+    display: inline-block;
+    margin: 0 1em .5em 0; }
+  .presence ul li[data-icon]:before {
+    font-size: 1.8em;
+    vertical-align: middle;
+    margin-right: .15em;
+    color: #969490; }
+  .presence ul a {
+    color: #969490; }
+    .presence ul a:hover, .presence ul #masthead a:hover, #masthead .presence ul a:hover {
+      color: #6a442a; }
 
-@media (max-width: 767px) {
-  .posts, .presence {
-    float: none;
-    width: 100%; } }
+.posts article + article {
+  margin-top: 10px; }
+.posts article header > * {
+  display: inline-block;
+  font: normal 1em/1em "proxima-nova", sans-serif; }
+.posts article header h3 {
+  margin: 0; }
+.posts article header time {
+  color: #969490;
+  font-size: .8em; }
+
 .single-post {
   position: relative; }
 
 .single-post .content {
-  font-size: 1.1em;
   line-height: 1.5em; }
   .single-post .content li + li {
     margin-top: 1em; }
@@ -651,30 +630,17 @@ pre, code, kbd, samp {
     font-size: 2em;
     text-align: center; }
 
-.single-post aside {
-  margin-bottom: 1em;
+.single-post time {
+  display: block;
+  margin: 1em 0 .35em;
+  font-size: .8em;
   color: #969490; }
 
-@media (max-width: 1023px) {
-  .single-post h1 {
-    margin-bottom: 0; }
-  .single-post time:after {
-    content: ' \2014 '; } }
-@media (min-width: 1025px) {
-  .single-post {
-    padding: 0 18%; }
-    .single-post aside {
-      margin-bottom: 0;
-      font-size: .8em;
-      color: #322a1f; }
-      .single-post aside .meta {
-        position: absolute;
-        top: .4em;
-        width: 16%; }
-      .single-post aside time {
-        left: 0; }
-      .single-post aside span {
-        right: 0; } }
+.single-post h1 {
+  line-height: .9em;
+  margin: 0 0 .5em;
+  letter-spacing: -.025em; }
+
 figure {
   text-align: center;
   padding: 0 0 .5em;
@@ -690,14 +656,10 @@ figure {
     font-size: .8em;
     font-style: italic;
     line-height: 1.2em; }
-  @media (min-width: 1025px) {
-    .single-post figure {
-      width: 124%;
-      margin-left: -28%; } }
 
 #disqus_header {
   margin-top: 40px;
-  border-bottom: 1px solid #e4dfd9; }
+  border-bottom: 1px solid #dad3ca; }
 
 #dsq-new-post h3 {
   display: none !important; }
@@ -714,4 +676,4 @@ figure {
 
 .dsq-options {
   padding-bottom: .5em !important;
-  border-bottom: 1px solid #e4dfd9 !important; }
+  border-bottom: 1px solid #dad3ca !important; }

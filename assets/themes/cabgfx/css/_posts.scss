@@ -1,9 +1,8 @@
 .single-post {position: relative;}
 
 .single-post .content {
-  font-size: 1.1em;
   line-height: 1.5em;
-  
+
   li + li {margin-top: 1em;}
 
   &:after {
@@ -15,29 +14,17 @@
   }
 }
 
-.single-post aside {margin-bottom: 1em; color: $textColorLighter;}
-
-@media (max-width: 1023px) {
-  .single-post {
-    h1 {margin-bottom: 0;}
-    time:after {content: ' \2014 ';} 
-  }
+.single-post time {
+  display: block;
+  margin: 1em 0 .35em;
+  font-size: .8em;
+  color: $textColorLighter;
 }
 
-@media (min-width: 1025px) {
-  .single-post {
-    padding: 0 18%;
-
-    aside {
-      margin-bottom: 0;
-      font-size: .8em;
-      color: $textColorLight;
-
-      .meta {position: absolute; top: .4em; width: 16%;}
-      time {left: 0;}
-      span {right: 0;}
-    }
-  }
+.single-post h1 {
+  line-height: .9em;
+  margin: 0 0 .5em;
+  letter-spacing: -.025em;
 }
 
 figure {
@@ -56,9 +43,5 @@ figure {
     font-size: .8em;
     font-style: italic;
     line-height: 1.2em;
-  }
-
-  @media (min-width: 1025px) {
-    .single-post & {width: 124%; margin-left: -28%;}
   }
 }

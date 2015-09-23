@@ -1,23 +1,25 @@
 body {
+  $bgSize: 36.015625%;
   @include chrome-border('top');
 
   margin: 0 auto;
-  padding: 2% 3%;
-  min-width: 10em;
-  max-width: 40em;
-  background: $figColor;
+  padding: 0 3% 460px;
+  background: $bgColor url('/assets/themes/cabgfx/images/bg.jpg') no-repeat center bottom;
+  background-size: auto 460px;
   color: $textColor;
   font: normal 1em/1.5em $basefont;
 
-  @media (min-width: 769px) {max-width: 70%;}
+  @media (min-width: 621px) {
+    padding: 2% 10% 2% $bgSize+2%;
+    background-size: $bgSize;
+    background-position: left bottom;
+    background-attachment: fixed;
+  }
 }
 
 #masthead {
-  @include section-border('bottom');
-
   position: relative;
   padding-top: 1em;
-  margin-bottom: 3em;
   padding-bottom: 1em;
   color: $textColorLight;
   font-size: .9em;
@@ -28,21 +30,14 @@ body {
     color: $textColor;
     &:hover {@extend a:hover;}
   }
-
-  @media (max-width: 767px) {
-    margin-bottom: 1em;
-  }  
 }
 
 #wrapper {overflow: hidden; margin-bottom: 3em;}
 
 footer {
-  @include chrome-border('top');
-
   clear: both;
   color: $textColorLighter;
   font-size: .75em;
-  text-align: center;
-  
+
   a:link, a:visited {color: $textColorLight;}
 }

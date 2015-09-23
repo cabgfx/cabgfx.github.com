@@ -1,19 +1,6 @@
 <article class="single-post">
+  <time class="meta" datetime="{{page.date}}" pubdate>{{ page.date | date_to_long_string }}</time>
   <h1>{{ page.title }}</h1>
-
-  <aside>
-    <time class="meta" datetime="{{page.date}}" pubdate>{{ page.date | date_to_long_string }}</time>
-    <span class="meta">
-      Reading time: {{ page.reading_time }}<br>
-
-      {% unless page.tags == empty %}
-        Posted in:
-        {% for tag in page.tags %}
-          <a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }}</a>
-        {% endfor %}
-      {% endunless %}      
-    </span>
-  </aside>
 
   <div class="content">
     {{ content }}
